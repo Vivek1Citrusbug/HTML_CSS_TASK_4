@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'DM sans'; /* The name you want to use for the font */
+    src: url('../fonts/DM_Sans/DMSans-Regular.woff2') format('woff2'),
+         url('../fonts/DM_Sans/DMSans-Regular.woff') format('woff'),
+         url('../fonts/DM_Sans/DMSans-Regular.ttf') format('truetype'); /* Multiple formats for browser compatibility */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: DM sans;
+}
+
+.glimps-container{
+    background-color: #F6F8FB;
+    padding: 122px ;
+}
+
+@media (max-width: 768px) {
+    .glimps-container {
+      padding: 20px; /* Adjust this value as per your need */
+    }
+  }
+  
+.glims-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    text-align: center;
+}
+
+.card-image{
+    width: 100%;
+    height: auto;
+}
+
+.card-box{
+    border: 1px solid silver;
+    padding: 16px 20px 16px 20px;
+    box-shadow: 0px 2.77px 2.21px 0px #00000005;
+    box-shadow: 0px 6.65px 5.32px 0px #00000007;
+    box-shadow: 0px 12.52px 10.02px 0px #00000009;
+    box-shadow: 0px 22.34px 17.87px 0px #0000000B;
+    box-shadow: 0px 41.78px 33.42px 0px #0000000D;
+    box-shadow: 0px 100px 80px 0px #00000012;
+}
+
+.videoimage{
+    border-radius: 20px;
+}
+
+.glimps-subtitle{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color:#FFFFFF;
+    
+}
+
+.glimps-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
+
+.glimps-text-container{
+    margin-top: 30px;
+    background-color:#183C59;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.card-title{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 14px;
+}
+
+.book-language{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.steps{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+ 
+.about-title{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #173B58;
+}
+
+.about-text{
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+    color: #173B58;
+}
+
+.Ondervisningsplan{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+    border-bottom: 1px solid #173B58;
+}
+
+.readmore{
+    border-bottom: 2px solid #173B58;
+    font-weight: 700;
+}
+
+.founder-card{
+    background: linear-gradient(96.05deg, #96D1E3 45.21%, #D8E4D6 96.81%);
+    padding: 40px 50px 40px 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-founder{
+    margin-top: 20px;
+}
+.founder-title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.46px;
+    text-align: left;
+    color: #173B58;
+    margin-bottom: 0px;
+}
+
+.founder-subtitle{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.83px;
+    text-align: left;
+    color: #173B58;
+}
+
+.founder-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+    color: #173B58;
+
+}
+
+.article-text{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color:#173B58;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Internasjonal{
+    margin-top: 80px;
+}
+
+.viewButton{
+    width: 200px;
+    height:70px;
+    border: 1px solid #173B58;
+    color: #173B58;
+    border-radius: 56px;
+    font-size:25px;
+    font-weight: 700;
+    box-shadow: 0px 3px 12px 0px #173B584D;
+    /* Center text inside the button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
