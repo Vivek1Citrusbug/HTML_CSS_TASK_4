@@ -13,8 +13,38 @@ body{
 
 .glimps-container{
     background-color: #F6F8FB;
-    padding: 122px ;
+    padding: 122px;
 }
+
+.teacher-name{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #183C59;
+    margin-bottom: 0;
+    margin-top: 5px;
+    padding-left:10px;
+}
+
+.teacher-sub{
+    margin-top: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #183C59;
+    padding-left:10px;
+}
+
+.card-line{
+    border: 1px solid #D9DBE9;
+}
+
+.card-fun{
+    margin-right: 10px !important;
+}
+
 
 @media (max-width: 768px) {
     .glimps-container {
@@ -27,6 +57,7 @@ body{
     font-weight: 700;
     line-height: 57px;
     text-align: center;
+    color: #173B58;
 }
 
 .card-image{
@@ -80,7 +111,13 @@ body{
     font-weight: 700;
     line-height: 20px;
     text-align: left;
-    margin-top: 14px;
+    margin-top: 20px;
+    color: #183C59;
+}
+
+.card-vectors{
+    width: 30px;
+    height: auto;
 }
 
 .book-language{
@@ -88,6 +125,9 @@ body{
     font-weight: 400;
     line-height: 20px;
     text-align: left;
+    color: #183C59;
+    margin-top:20px;
+
 }
 
 .steps{
@@ -99,7 +139,7 @@ body{
  
 .about-title{
     margin-top: 80px;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0.04em;
@@ -183,6 +223,7 @@ body{
 
 .Internasjonal{
     margin-top: 80px;
+    background-color: #F6F8FB;
 }
 
 .viewButton{
@@ -199,4 +240,292 @@ body{
     align-items: center;
     justify-content: center;
 }
+.international-school-container {
+    display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    justify-content: center; /* Vertically center the content */
+    align-items: flex-start; /* Align items to the left (horizontally) */
+    height: 100%;            /* Ensure the container takes the full height */
+}
+
+/* Optional: Add some padding to the text for better layout */
+.school-title{
+    color: #173B58;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    padding-left: 15%; 
+    padding-bottom:10px;
+}
+
+.school-text{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    padding-left: 15%;
+    padding-bottom:10px;
+}
+
+.button-internationaljuke{
+    width: 300px;
+    height:70px;
+    margin-left: 15%;
+    padding: 8px 18px 8px 18px;
+    border: 1px solid #173B58;
+    color: #173B58;
+    border-radius: 56px;
+    font-size:18px;
+    font-weight: 700;
+    box-shadow: 0px 3px 12px 0px #173B584D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.school-schedule-title{
+     padding: 60px 10px 5px 0px; 
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #173B58;
+}
+
+.school-schedule-text{
+    padding: 60px 10px 5px 0px; 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #173B58;
+
+}
+
+/* Container for the images */
+.image-stack-container {
+    position: relative;
+    width: 100%;            /* Full width of parent container */
+    max-width: 800px;        /* Optional: limit the maximum width for the container */
+    padding-top: 56.25%;     /* Aspect ratio for responsiveness (16:9) */
+    overflow: hidden;        /* Prevent content overflow */
+    margin: 0 auto;          /* Center the container */
+    float: left;
+    
+}
+
+/* Image stack */
+.image-stack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Center images horizontally */
+    align-items: center;     /* Center images vertically */
+}
+
+.school-container{
+    padding: 122px !important;
+}
+
+/* Common styling for both images */
+.image1, .image2 {
+    position: absolute;
+    max-width: 100%;  /* Images scale to fit the container's width */
+    max-height: 100%; /* Ensure both images have the same height and fit the container */
+    width: auto;      /* Maintain aspect ratio */
+    height: auto;     /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure both images fit within the container without distortion */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .image1, .image2 {
+        max-width: 90%;  /* Slightly reduce image size on medium screens */
+        max-height: 90%; /* Ensure same height on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .image1, .image2 {
+        max-width: 100%; /* Full width on small screens */
+        max-height: 100%; /* Ensure images are fully visible */
+    }
+}
+
+.testimonial-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #173B58;
+}
+
+.testimonials-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #18191F;
+}
+
+.testimonials-container{
+    padding:20px;
+}
+
+.testimonial-card-active{
+    text-align: center;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 35px 30px 10px #0000000B;
+    box-shadow: 0px 50px 40px 10px #0000000D;
+    padding: 40px 35px 40px 35px;
+    border-radius: 8px;
+}
+
+.testimonial-card{
+    border: 1px solid #DEDEDE;
+    text-align: center;
+    box-shadow: 0px 6.65px 5.32px 0px #00000007;
+    padding: 40px 35px 40px 35px;
+    border-radius: 8px;
+}
+
+.client-name{
+    padding: 15px 10px 15px 10px;
+    color: #EDB031;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+}
+
+.client-review{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.20000000298023224px;
+}
+
+.client-location{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+}
+
+.faq-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #173B58;
+    margin-top: 110px;
+    margin-bottom: 40px;
+}
+
+.accordion-button:hover {
+    background-color: #F6F6F6;
+}
+
+.accordion-button {
+    border: 1px solid #EBEBEB;  
+    color: #252B42;           
+    border: none;                
+    position: relative;         
+    padding-left: 20px;      
+    height: 69px;    
+}
+
+.accordion-button:focus::before {
+    content: '';                  
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;                  
+    background-color: #EDB031; 
+    box-shadow: none;             
+    z-index: 1;                   
+}
+
+.accordion-item{
+    background-color: #EBEBEB;
+}
+
+.accordion-button:focus {
+    outline: none;    
+    box-shadow: none ;           
+}
+
+/* Target the arrow (chevron) inside the accordion button */
+.accordion-button::after {
+    background-color: transparent;  /* Set default background to transparent */
+    color: white;                   /* Change the color of the arrow */
+    font-size: 2.5rem;             /* Adjust arrow size if needed */
+    border-radius: 10px;
+}
+
+/* When the button is collapsed (arrow pointing down) */
+.accordion-button.collapsed::after {
+    background-color: orange;       /* Change background color to orange */
+    color: white;                   /* Optional: Change the arrow color */
+}
+
+/* When the button is expanded (arrow pointing up) */
+.accordion-button:not(.collapsed)::after {
+    background-color: darkorange;   /* Change background color when expanded */
+    color: white;                   /* Optional: Adjust arrow color */
+}
+
+.footer-container{
+    background-color: #173B58;
+    color: #FFFFFF;
+}
+
+.footer-note{
+    width: 80%;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.footer-subheading{
+    color: #FFFFFF80;
+}
+
+.footer-social-icons {
+    display: flex;                  /* Align icons horizontally */
+    justify-content: center;        /* Center the icons */
+    gap: 20px;                      /* Space between the icons */
+}
+
+.social-icon {
+    width: 50px;                    /* Icon size */
+    height: 50px;
+    background-color:#FFFFFF14;    
+    padding: 8px;                  /* Padding inside the circle */
+    border-radius: 50%;             /* Make it circular */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
 
