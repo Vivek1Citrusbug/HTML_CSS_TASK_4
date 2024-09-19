@@ -11,9 +11,152 @@ body{
     font-family: DM sans;
 }
 
+.sign-in-button-top{
+    width: 150px;
+    height:60px;
+    border: 1px solid #173B58;
+    color: #173B58;
+    border-radius: 56px;
+    font-size:25px;
+    font-weight: 700;
+    box-shadow: 0px 3px 12px 0px #173B584D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-screen-title{
+    font-size: 40px;
+    font-weight:bold;
+    line-height: 57px;
+    text-align: left;
+    color: #173B58;
+}
+
+.home-screen-sub{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 46px;
+    text-align: left;
+    color: #173B58;
+
+}
+
+.sign-in-text{
+    font-size: 20px;
+    font-weight:600;
+    line-height: 46px;
+    text-align: left;
+    color: #173B58;
+
+}
+
+.input-email{
+    border-radius: 56px;
+    padding: 5px 8px 5px 8px;
+    border: 1px solid #173B58;
+    width: 300px;
+    height: 62px;
+}
+
+.sign-in-options{
+    padding: 20px 40px 21px 40px;
+    gap: 8px;
+    border-radius: 56px;
+    opacity: 0px;
+    background-color:#EDF2F7;
+    border: none;
+    margin-right: 8px;
+}
+
+.get-started-but{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    padding: 20px 40px 21px 47px;
+    gap: 17px;
+    border-radius: 56px;
+    opacity: 0px;
+    background-color:#EDB031;
+    border: none;
+    margin-left: -50px;
+}
+
+
+@media (max-width: 576px) {
+    .women-image {
+        display: none;
+    }
+    .input-email{
+        border-radius: 56px;
+        padding: 5px 8px 5px 8px;
+        border: 1px solid #173B58;
+        width: 300px;
+        height: 50px;
+    }
+    .sign-in-options{
+        padding: 5px;
+        gap: 4px;
+        border-radius: 28px;
+        opacity: 0px;
+        background-color:#EDF2F7;
+        border: none;
+        margin-right: 4px;
+        
+    }
+    .get-started-but{
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+        padding: 5px 10px 5px 10px;
+        gap: 10px;
+        border-radius: 28px;
+        opacity: 0px;
+        background-color:#EDB031;
+        border: none;
+        margin-left: -80px;
+    }
+    .sign-in-button-container{
+        justify-content: space-between;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .women-image {
+        display: none; /* This will hide the button */
+    }
+    .sign-in-options{
+        padding: 5px 10px 5px 10px;
+        gap: 6px;
+        border-radius: 10px;
+        opacity: 0px;
+        background-color:#EDF2F7;
+        border: none;
+        margin-right: 6px;
+    }
+}
+
+@media (max-width: 992px) {
+    .women-image {
+        display: none;
+    }
+    .sign-in-options{
+        padding: 15px 30px 15px 30px;
+        gap: 8px;
+        border-radius: 42px;
+        opacity: 0px;
+        background-color:#EDF2F7;
+        border: none;
+        margin-right: 8px;
+    }
+}
+
+
+
 .glimps-container{
     background-color: #F6F8FB;
-    padding: 122px;
 }
 
 .teacher-name{
@@ -48,9 +191,9 @@ body{
 
 @media (max-width: 768px) {
     .glimps-container {
-      padding: 20px; /* Adjust this value as per your need */
+      padding: 0px; /* Adjust this value as per your need */
     }
-  }
+}
   
 .glims-title{
     font-size: 40px;
@@ -66,18 +209,22 @@ body{
 }
 
 .card-box{
-    border: 1px solid silver;
-    padding: 16px 20px 16px 20px;
+    border-radius: 8px;
+    padding: 20px;
     box-shadow: 0px 2.77px 2.21px 0px #00000005;
     box-shadow: 0px 6.65px 5.32px 0px #00000007;
-    box-shadow: 0px 12.52px 10.02px 0px #00000009;
-    box-shadow: 0px 22.34px 17.87px 0px #0000000B;
-    box-shadow: 0px 41.78px 33.42px 0px #0000000D;
-    box-shadow: 0px 100px 80px 0px #00000012;
+    box-shadow:0px 12.52px 10.02px 0px #00000009;
+    box-shadow:0px 22.34px 17.87px 0px #0000000B;
+    box-shadow:0px 41.78px 33.42px 0px #0000000D;
+    box-shadow:0px 120px 120px 0px rgba(0, 0, 0, 0.3); 
+
 }
 
 .videoimage{
     border-radius: 20px;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
 }
 
 .glimps-subtitle{
@@ -181,20 +328,22 @@ body{
     margin-top: 20px;
 }
 .founder-title{
-    font-size: 28px;
-    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 28px; 
+    font-weight: 700; 
     line-height: 36.46px;
-    text-align: left;
     color: #173B58;
-    margin-bottom: 0px;
+
 }
 
 .founder-subtitle{
-    font-size: 16px;
-    font-weight: 600;
+    
+    margin-bottom: 0;
+    font-size: 16px; 
+    font-weight: 600; 
     line-height: 20.83px;
-    text-align: left;
     color: #173B58;
+
 }
 
 .founder-text{
@@ -206,6 +355,21 @@ body{
 
 }
 
+.founder-socials{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0px;
+    cursor: pointer;
+}
+.LinkedInColor{
+    background-color: #006699;
+}
+.mailColor{
+    background-color: #173B58;
+}
 .article-text{
     font-size: 22px;
     font-weight: 600;
@@ -285,7 +449,7 @@ body{
 }
 
 .school-schedule-title{
-     padding: 60px 10px 5px 0px; 
+    padding: 60px 10px 5px 0px; 
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -358,6 +522,50 @@ body{
     }
 }
 
+.uo-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #173B58;
+}
+
+.uo-card{
+    box-shadow: 0px 5px 6px 0px #080F340F;
+    border: 1px solid #EFF0F6;
+    padding: 20px;
+}
+
+.profile-images {
+    position: relative;
+    width: 100px; /* Adjust based on the total width needed */
+    height: 60px; /* Adjust based on the height of the images */
+    overflow:hidden;
+}
+
+.profile {
+    position: absolute;
+    width: 60px; /* Adjust based on image size */
+    height: 60px; /* Adjust based on image size */
+    border-radius: 50%; /* Makes the images circular */
+    border: 4px solid white; /* Optional: Add border around the images */
+}
+
+.profile:nth-child(1) {
+    left: 0;
+    z-index: 3;
+}
+
+.profile:nth-child(2) {
+    left: 10px; /* Slight offset to layer over the first image */
+    z-index: 2;
+}
+
+.profile:nth-child(3) {
+    left: 20px; /* Further offset to layer over the second image */
+    z-index: 1;
+}
 .testimonial-title{
     font-size: 40px;
     font-weight: 700;
@@ -488,7 +696,22 @@ body{
 .footer-container{
     background-color: #173B58;
     color: #FFFFFF;
+    padding:40px 47px 20px 60px;
+    cursor: pointer;
+    border-bottom: 3px solid linear-gradient(246.27deg, #F4E353 21.64%, #EDB031 65.09%);
+    position: relative;
 }
+
+  
+.footer-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8px; /* Border height */
+    background: linear-gradient(246.27deg, #F4E353 21.64%, #EDB031 65.09%);
+  }
 
 .footer-note{
     width: 80%;
@@ -502,21 +725,20 @@ body{
 }
 
 .footer-social-icons {
-    display: flex;                  /* Align icons horizontally */
-    justify-content: center;        /* Center the icons */
-    gap: 20px;                      /* Space between the icons */
+    display: flex;                  
+    justify-content: center;        
+    gap: 20px;                      
 }
 
 .social-icon {
-    width: 50px;                    /* Icon size */
+    width: 50px;                    
     height: 50px;
     background-color:#FFFFFF14;    
-    padding: 8px;                  /* Padding inside the circle */
-    border-radius: 50%;             /* Make it circular */
+    padding: 10px;                  
+    border-radius: 20px;             
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.3s ease;
 }
 
 

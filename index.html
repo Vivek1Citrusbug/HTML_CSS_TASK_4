@@ -12,6 +12,47 @@
 </head>
 
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="d-flex flex-row align-items-baseline">
+                        <img class="img-fluid" src="Img/logopng.png" alt="Not supported">
+                        <img class="img-fluid" src="Img/brandname.png" alt="Not supported">
+                    </div>
+                    <div>
+                        <p class="sign-in-button-top">Sign In</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="d-flex flex-row justify-content-around align-items-center border border-text">
+            <div class="border border-text">
+                <p class="home-screen-title border border-text">Everything you <br> need for teaching</p>
+                <p class="home-screen-sub border border-text">The future's most important tool for the teacher</p>
+                <form>
+                    <div class="d-flex flex-row border border-text">
+                        <div class="form-group border border-text">
+                            <input type="email" class="form-control input-email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <button type="submit" class="get-started-but" >Get Started <img src="Img/rightArrow.png" alt="not supported"></button>
+                    </div>
+                    <p class="sign-in-text border border-text">or Sign in with</p>
+                    <div class="d-flex sign-in-button-container flex-row border border-text flex-wrap">
+                        <button type="submit" class="sign-in-options border border-text"><img class="img-fluid" src="Img/signinOp1.png" alt="not supported"></button>
+                        <button type="submit" class="sign-in-options border border-text"><img class="img-fluid" src="Img/signinOp2.png" alt="not supported"></button>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <div>
+                    <img class="img-fluid women-image border border-text" src="Img/womenchair.png" alt="not supported">
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container-fluid glimps-container">
         <div class="row">
             <div class="col">
@@ -22,36 +63,90 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-3">
+            <!-- Card Section -->
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card-box">
+                    <img class="img-fluid card-image" src="Img/Rectangle 4371.png" alt="image not supported">
+                    <div class="card-details">
+                        <p class="card-title">Basic English Learning</p>
+                        <p class="book-language">
+                            <img class="img-fluid card-vectors" src="Img/book-open 1.svg" alt="not supported"> 
+                            English, Norsk
+                        </p>
+                        <div class="d-flex justify-content-start">
+                            <div class="w-50">
+                                <img class="img-fluid card-vectors" src="Img/bar-chart 1.svg" alt="not supported">
+                                <span class="card-fun">Steps: 3</span>
+                            </div>
+                            <div class="w-50">
+                                <img class="img-fluid card-vectors" src="Img/clock 1.svg" alt="not supported">
+                                <span class="card-fun">2hr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="card-line">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="w-15">
+                            <img src="Img/teacher.png" class="img-fluid" alt="not supported">
+                        </div>
+                        <div class="w-60">
+                            <p class="teacher-name">Johny Wino</p>
+                            <p class="teacher-sub">School Management</p>
+                        </div>
+                        <div class="w-25 d-flex justify-content-end">
+                            <img src="Img/morevector.svg" alt="not supported">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Video Section -->
+            <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
+                <img class="img-fluid videoimage" src="Img/videoimage.png" alt="not supported">
+            </div>
+        </div>
+        
+
+        <!-- <div class="row">
+            <div class="col-sm-3 col-md-4">
                 <div class="card-box ">
                     <img class="img-fluid card-image" src="Img/Rectangle 4371.png" alt="image not supported">
                     <div class="card-details">
                         <p class="card-title">Basic english learning</p>
                         <p class="book-language"><img class="img-fluid card-vectors" src="Img/book-open 1.svg"
                                 alt="not supported"> English, Norsk</p>
-                        <p><img class="img-fluid card-vectors" src="Img/bar-chart 1.svg" alt="not supported"><span
-                                class="card-fun"> Steps : 3</span><img class="img-fluid card-vectors"
-                                src="Img/clock 1.svg" alt="not supported"><span class="card-fun"> 2hr</span></p>
+                        <div class="d-flex justify-content-start">
+                            <div class=" w-50">
+                                <img class="img-fluid card-vectors" src="Img/bar-chart 1.svg" alt="not supported">
+                                <span class="card-fun"> Steps : 3</span>
+                            </div>
+                            <div class=" w-50">
+                                <img class="img-fluid card-vectors" src="Img/clock 1.svg" alt="not supported">
+                                <span class="card-fun"> 2hr</span>
+                            </div>
+                        </div>
                     </div>
                     <hr class="card-line">
                     <div class="d-flex justify-content-between align-items-center flex-row">
-                        <div class="border border-dark"><img src="Img/teacher.png" alt="not supported"></div>
-                        <div class="ml-0 border border-dark">
+                        <div class="w-15 ">
+                            <img src="Img/teacher.png" alt="not supported">
+                        </div>
+                        <div class="w-60 " >
                             <p class="teacher-name">Johny wino</p>
                             <p class="teacher-sub">School management</p>
                         </div>
-                        <div class="border border-dark">
+                        <div class="w-25 d-flex justify-content-end">
                             <img src="Img/morevector.svg" alt="not supported">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-9">
+            <div class="col-sm-9 col-md-8">
                 <div>
                     <img class="img-fluid videoimage" src="Img/videoimage1.png" alt="not supported">
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="row">
             <div class="col">
@@ -95,15 +190,23 @@
             <div class="row">
                 <div class="col-sm-3">
                     <div class="founder-img-container text-center">
-                        <img class="img-fluid" src="Img/Rectangle 4363.png" alt="not supported">
+                        <img class="img-fluid" src="Img/founder1.png" alt="not supported">
                     </div>
                 </div>
                 <div class="col-sm-9">
                     <div class="about-founder">
-                        <p class="founder-title">Karen Wiik</p>
-                        <p class="founder-subtitle">Founder of Undervisningsplan.no AS</p>
+                        <div class="d-flex flex-wrap justify-content-between ">
+                            <div >
+                                <p class="founder-title">Karen Wiik</p>
+                                <p class="founder-subtitle">Founder of Undervisningsplan.no AS</p>
+                            </div>
+                            <div class="d-flex flex-row ">
+                                <div class="founder-socials d-flex align-items-center justify-content-center LinkedInColor"><img  src="Img/linkedin_vector.svg" alt="not supported"></div>
+                                <div class="founder-socials d-flex align-items-center justify-content-center mailColor"><img  src="Img/mailvector.svg" alt="not supported"></div>
+                            </div>
+                        </div>
                         <hr>
-                        <p class="founder-subtitle">Kristiansund, Møre og Romsdal, Norway</p>
+                        <p class="founder-subtitle"><img src="Img/locationvector.png" alt=""><span class="mx-3">Kristiansund, Møre og Romsdal, Norway</span></p>
                         <hr>
                         <p class="founder-text">
                             Hello! My name is Karen Wiik, and I am the founder of Undervisningsplan. I am a qualified
@@ -119,20 +222,26 @@
             <div class="row">
                 <div class="col-sm-3">
                     <div class="founder-img-container text-center">
-                        <img class="img-fluid" src="Img/Rectangle 4364.png" alt="not supported">
+                        <img class="img-fluid" src="Img/founder2.png" alt="not supported">
                     </div>
                 </div>
                 <div class="col-sm-9">
                     <div class="about-founder">
-                        <p class="founder-title">Tonje Brattås</p>
-                        <p class="founder-subtitle">COO and Co-founder i Undervisningsplan.no AS</p>
+                        <div class="d-flex flex-wrap justify-content-between ">
+                            <div >
+                                <p class="founder-title">Tonje Brattås</p>
+                                <p class="founder-subtitle">COO and Co-founder i Undervisningsplan.no AS</p>
+                            </div>
+                            <div class="d-flex flex-row ">
+                                <div class="founder-socials d-flex align-items-center justify-content-center LinkedInColor"><img  src="Img/linkedin_vector.svg" alt="not supported"></div>
+                                <div class="founder-socials d-flex align-items-center justify-content-center mailColor"><img  src="Img/mailvector.svg" alt="not supported"></div>
+                            </div>
+                        </div>
                         <hr>
-                        <p class="founder-subtitle">Oslo, Norway</p>
+                        <p class="founder-subtitle"><img src="Img/locationvector.png" alt=""><span class="mx-3">Oslo, Norway</span></p>
                         <hr>
                         <p class="founder-text">
-                            Hello! My name is Tonje Brattås, and I am a partner and board member in Undervisningsplan. I
-                            am a lecturer with promotion in Norwegian and history, and have 6 years' experience from the
-                            Oslo School. I also have previous experience from start-up companies.
+                            Hello! My name is Tonje Brattås, and I am a partner and board member in Undervisningsplan. I am a lecturer with promotion in Norwegian and history, and have 6 years' experience from the Oslo School. I also have previous experience from start-up companies.
                         </p>
                     </div>
                 </div>
@@ -210,6 +319,171 @@
                     <div class="image-stack">
                         <img src="Img/Ellipse4.png" class="image1">
                         <img src="Img/schedule.jpg" class="image2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <p class="uo-title">UOs and material</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="uo-card">
+                    <img class="img-fluid card-image" src="Img/Rectangle 4371.png" alt="image not supported">
+                    <div class="card-details">
+                        <p class="card-title">Music basics</p>
+                        <p class="book-language">
+                            <img class="img-fluid card-vectors" src="Img/book-open 1.svg" alt="not supported"> 
+                            English, Norsk
+                        </p>
+                        <div class="d-flex justify-content-start">
+                            <div class="w-50">
+                                <img class="img-fluid card-vectors" src="Img/bar-chart 1.svg" alt="not supported">
+                                <span class="card-fun">Steps: 3</span>
+                            </div>
+                            <div class="w-50">
+                                <img class="img-fluid card-vectors" src="Img/clock 1.svg" alt="not supported">
+                                <span class="card-fun">2hr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="card-line">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="w-25 ">
+                            <div class="profile-images">
+                                <img src="Img/teacher.png" alt="Profile 1" class="profile">
+                                <img src="Img/teacher.png" alt="Profile 2" class="profile">
+                                <img src="Img/teacher.png" alt="Profile 3" class="profile">
+                            </div>
+                        </div>
+                        <div class="w-50">
+                            <p class="teacher-name">Johny wino 4 more</p>
+                            <p class="teacher-sub">School Management</p>
+                        </div>
+                        <div class="w-25 d-flex justify-content-end ">
+                            <img src="Img/heartlogo.png" alt="not supported">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="uo-card">
+                    <img class="img-fluid card-image" src="Img/uocard1.png" alt="image not supported">
+                    <div class="card-details">
+                        <p class="card-title">English Learning</p>
+                        <p class="book-language">
+                            <img class="img-fluid card-vectors" src="Img/book-open 1.svg" alt="not supported"> 
+                            English, Norsk
+                        </p>
+                        <div class="d-flex justify-content-start">
+                            <div class="w-50">
+                                <img class="img-fluid card-vectors" src="Img/bar-chart 1.svg" alt="not supported">
+                                <span class="card-fun">Steps: 3</span>
+                            </div>
+                            <div class="w-50">
+                                <img class="img-fluid card-vectors" src="Img/clock 1.svg" alt="not supported">
+                                <span class="card-fun">2hr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="card-line">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="w-25 ">
+                            <div class="profile-images">
+                                <img src="Img/teacher.png" alt="Profile 1" class="profile">
+                                <img src="Img/teacher.png" alt="Profile 2" class="profile">
+                                <img src="Img/teacher.png" alt="Profile 3" class="profile">
+                            </div>
+                        </div>
+                        <div class="w-50 ">
+                            <p class="teacher-name">Johny wino 4 more</p>
+                            <p class="teacher-sub">School Management</p>
+                        </div>
+                        <div class="w-25 d-flex justify-content-end ">
+                            <img src="Img/heartlogo.png" alt="not supported">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="uo-card">
+                    <img class="img-fluid card-image" src="Img/uocard2.png" alt="image not supported">
+                    <div class="card-details">
+                        <p class="card-title">Beginer drawing class</p>
+                        <p class="book-language">
+                            <img class="img-fluid card-vectors" src="Img/book-open 1.svg" alt="not supported"> 
+                            English, Norsk
+                        </p>
+                        <div class="d-flex justify-content-start">
+                            <div class="w-50">
+                                <img class="img-fluid card-vectors" src="Img/bar-chart 1.svg" alt="not supported">
+                                <span class="card-fun">Steps: 3</span>
+                            </div>
+                            <div class="w-50">
+                                <img class="img-fluid card-vectors" src="Img/clock 1.svg" alt="not supported">
+                                <span class="card-fun">2hr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="card-line">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="w-25">
+                            <div class="profile-images">
+                                <img src="Img/teacher.png" alt="Profile 1" class="profile">
+                                <img src="Img/teacher.png" alt="Profile 2" class="profile">
+                                <img src="Img/teacher.png" alt="Profile 3" class="profile">
+                            </div>
+                        </div>
+                        <div class="w-50">
+                            <p class="teacher-name">Johny wino 4 more</p>
+                            <p class="teacher-sub">School Management</p>
+                        </div>
+                        <div class="w-25 d-flex justify-content-end">
+                            <img src="Img/heartlogo.png" alt="not supported">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="uo-card">
+                    <img class="img-fluid card-image" src="Img/uocard3.png" alt="image not supported">
+                    <div class="card-details">
+                        <p class="card-title">Do it yourself</p>
+                        <p class="book-language">
+                            <img class="img-fluid card-vectors" src="Img/book-open 1.svg" alt="not supported"> 
+                            English, Norsk
+                        </p>
+                        <div class="d-flex justify-content-start">
+                            <div class="w-50">
+                                <img class="img-fluid card-vectors" src="Img/bar-chart 1.svg" alt="not supported">
+                                <span class="card-fun">Steps: 3</span>
+                            </div>
+                            <div class="w-50">
+                                <img class="img-fluid card-vectors" src="Img/clock 1.svg" alt="not supported">
+                                <span class="card-fun">2hr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="card-line">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="w-25">
+                            <div class="profile-images">
+                                <img src="Img/teacher.png" alt="Profile 1" class="profile">
+                                <img src="Img/teacher.png" alt="Profile 2" class="profile">
+                                <img src="Img/teacher.png" alt="Profile 3" class="profile">
+                            </div>
+                        </div>
+                        <div class="w-50">
+                            <p class="teacher-name">Johny wino 4 more</p>
+                            <p class="teacher-sub">School Management</p>
+                        </div>
+                        <div class="w-25 d-flex justify-content-end">
+                            <img src="Img/heartlogo.png" alt="not supported">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -400,15 +674,15 @@
                 </div>
             </div>
             <hr>
-            <div class="row">
-                <div class="col-sm-4">
-                    <p>Undervisioningsplan</p>
-                </div>
-                <div class="col-sm-6">
-                    <p>© Curriculum 2021</p>
-                </div>
+            <div class="row d-flex align-items-baseline">
                 <div class="col-sm-2">
-                    <div class="footer-social-icons">
+                    <img class="img-fluid" src="Img/logoname.png" alt="not supported">
+                </div>
+                <div class="col-sm-8">
+                    <p class="text-center">© Curriculum 2021</p>
+                </div>
+                <div class="col-sm-2 d-flex justify-content-start">
+                    <div class="footer-social-icons ">
                         <a href="#" target="_blank">
                             <img src="Img/linkedin_vector.svg" alt="LinkedIn Logo" class="social-icon">
                         </a>
