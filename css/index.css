@@ -36,6 +36,108 @@ body {
     justify-content: center;
 }
 
+.parent-image-class{
+    position: relative;
+    display: inline-block;
+}
+.profile-card-title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color:  #1E1E1E;
+}
+.profile-name{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.44px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #1E1E1E;
+    margin-bottom: 0;
+}
+.designation{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18.23px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #1E1E1E;
+}
+.members-card{
+    display: relative;
+    position: absolute;
+    top:510px;
+    left:450px;
+    width: 250px;
+    height: 112px;
+    border: 1px solid #C3C4C6;
+    box-shadow: -8px 12px 64px 0px #A4A4A426;
+    border-radius: 16px;
+    padding: 24px;
+    background-color:  #FFFFFF;
+}
+.teachers{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.44px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #1E1E1E;
+}
+.smily{
+    position:absolute;
+    top:15px;
+    opacity: 0.1;
+    vertical-align: top;
+}
+.member-count{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.55px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #173B58;
+    margin-bottom: 10px;
+}
+.profile-card{
+    position:absolute;
+    right:575px;
+    top:611px;
+    width: 381px;
+    height:170px;
+    border: 1px solid #C3C4C6;
+    box-shadow: 8px 12px 64px 0px #A4A4A426;
+    padding: 28px 20px 16px 20px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    
+}
+
+.profile-container{
+    display: flex; /* Use Flexbox for side-by-side layout */
+    align-items: start;
+}
+
+
+.profile-image-landing {
+    width: 56px; /* Adjust the image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Makes the image circular if square */
+    margin-right: 20px; /* Add some space between the image and the content */
+    border: 3px solid #F4F4F4;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .profile-card {
+      display: none;
+    }
+    .members-card {
+        display: none;
+      }
+  }
+
 .home-screen-title {
     font-size: 40px;
     font-weight: bold;
@@ -110,6 +212,22 @@ body {
     color: #173B58;
     border-radius: 56px;
     font-size: 25px;
+    font-weight: 700;
+    box-shadow: 0px 3px 12px 0px #173B584D;
+    /* Center text inside the button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.calanderButton {
+    width: 360px;
+    height: 61px;
+    border: 1px solid #173B58;
+    color: #173B58;
+    border-radius: 56px;
+    font-size: 18px;
     font-weight: 700;
     box-shadow: 0px 3px 12px 0px #173B584D;
     /* Center text inside the button */
@@ -264,6 +382,10 @@ body {
     color: #173B58;
 }
 
+.copyrights{
+    text-align: center;
+}
+
 @media (max-width: 576px) {
     .women-image {
         display: none;
@@ -382,6 +504,22 @@ body {
         align-items: center;
         justify-content: center;
     }
+        
+    .calanderButton {
+        width: 250px;
+        height: 50px;
+        border: 1px solid #173B58;
+        color: #173B58;
+        border-radius: 56px;
+        font-size: 15px;
+        font-weight: 700;
+        box-shadow: 0px 3px 12px 0px #173B584D;
+        /* Center text inside the button */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .button-internationaljuke {
         width: 200px;
         height: 30px;
@@ -464,6 +602,9 @@ body {
     }
     .navigation-bar-content{
         justify-content: space-between;
+    }
+    .copyrights{
+        text-align: left !important;
     }
 
 }
@@ -554,6 +695,21 @@ body {
         align-items: center;
         justify-content: center;
     }
+       
+    .calanderButton {
+        width: 250px;
+        height: 50px;
+        border: 1px solid #173B58;
+        color: #173B58;
+        border-radius: 56px;
+        font-size: 15px;
+        font-weight: 700;
+        box-shadow: 0px 3px 12px 0px #173B584D;
+        /* Center text inside the button */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     .button-internationaljuke {
         width: 200px;
@@ -598,6 +754,9 @@ body {
     
     .navigation-bar-content{
         padding: 5px 10px 5px 10px;
+    }
+    .copyrights{
+        text-align: left;
     }
 }
 
@@ -650,6 +809,21 @@ body {
         justify-content: center;
     }
 
+    .calanderButton {
+        width: 250px;
+        height: 50px;
+        border: 1px solid #173B58;
+        color: #173B58;
+        border-radius: 56px;
+        font-size: 15px;
+        font-weight: 700;
+        box-shadow: 0px 3px 12px 0px #173B584D;
+        /* Center text inside the button */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .button-internationaljuke {
         width: 200px;
         height: 50px;
@@ -663,6 +837,9 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .copyrights{
+        text-align: center;
     }
 }
 
@@ -993,15 +1170,15 @@ body {
 .footer-social-icons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .social-icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: #FFFFFF14;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
