@@ -484,8 +484,8 @@ body {
     .international-school-container{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
+        justify-content:space-between !important;
+        align-items: center;
         height: 100%;
         padding:15px;
     }
@@ -605,6 +605,9 @@ body {
     }
     .copyrights{
         text-align: left !important;
+    }
+    .founder-title-card{
+        justify-content: center !important;
     }
 
 }
@@ -757,6 +760,16 @@ body {
     }
     .copyrights{
         text-align: left;
+    }
+    
+    .founder-socials {
+        width: 40px !important;
+        height: 40px !important;
+        margin-right: 10px;
+        text-align: center;
+        border-radius: 10px;
+        opacity: 0px;
+        cursor: pointer;
     }
 }
 
@@ -1095,6 +1108,7 @@ body {
     letter-spacing: 0.20000000298023224px;
 }
 
+
 .accordion-button:hover {
     background-color: #F6F6F6;
 }
@@ -1132,18 +1146,20 @@ body {
 .accordion-button::after {
     background-color: transparent;
     color: white;
-    font-size: 2.5rem;
-    border-radius: 10px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .accordion-button.collapsed::after {
-    background-color: orange;
-    color: white;
+    background-image: url(../Img/accordian_closed.png);
+    background-size: 22px;
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-color: darkorange;  
-    color: white;
+    background-image: url(../Img/accordian_opened.png);
+    background-size: 22px;
+
 }
 
 .footer-container::after {
@@ -1173,15 +1189,8 @@ body {
     gap: 10px;
 }
 
-.social-icon {
-    width: 40px;
-    height: 40px;
-    background-color: #FFFFFF14;
-    padding: 10px;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+.social-icons {
+    color: white; padding: 10px;background: #FFFFFF14;width: 40px;height: 40px;border-radius: 50%;text-align: center;
 }
 .underline-image {
     position: relative;
@@ -1193,18 +1202,18 @@ body {
     position: absolute;
     left: 1.2em;
     right: 0;
-    bottom: -0.1em; /* Relative position to the text */
-    height: 0.2em; /* Relative height */
-    background-image: url('../Img/dash_svg.png'); /* Add your image URL */
-    background-size: 100% 100%; /* Make it responsive */
+    bottom: -0.1em; 
+    height: 0.2em; 
+    background-image: url('../Img/dash_svg.png'); 
+    background-size: 100% 100%; 
     background-repeat: no-repeat;
     background-position: center;
-    width: 70%; /* Full width under the word */
+    width: 70%; 
   }
   
   @media (max-width: 768px) {
     .underline-image::after {
-      bottom: -0.2em; /* Adjust for smaller screens */
+      bottom: -0.2em; 
       height: 0.15em;
     }
   }
@@ -1219,18 +1228,18 @@ body {
     position: absolute;
     left: 1.2em;
     right: 0;
-    bottom: 0; /* Relative position to the text */
-    height: 0.2em; /* Relative height */
-    background-image: url('../Img/round_arrow.png'); /* Add your image URL */
-    background-size: 100% 100%; /* Make it responsive */
+    bottom: 0; 
+    height: 0.2em; 
+    background-image: url('../Img/round_arrow.png'); 
+    background-size: 100% 100%; 
     background-repeat: no-repeat;
     background-position: center;
-    width: 70%; /* Full width under the word */
+    width: 70%;
   }
   
   @media (max-width: 768px) {
     .underline-image2::after {
-      bottom: -0.2em; /* Adjust for smaller screens */
+      bottom: -0.2em; 
       height: 0.15em;
     }
   }
